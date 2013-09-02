@@ -1,0 +1,21 @@
+{
+  "author": "Mark Stewart <mark@grit-design.com>",
+  "name": "bcn-fs-root",
+  "description": "Use directory of files as bcn-root",
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "gitolite@git.grit313.com:repo/Grit/NodeModules/bcn-fs-root"
+  },
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "main": "lib/bcn-fs-root.js",
+  "dependencies": {
+	"async": "0.2.9"
+   },
+  "optionalDependencies": {},
+  "scripts": {
+       "test": "node tests/test.js"
+  }
+}
