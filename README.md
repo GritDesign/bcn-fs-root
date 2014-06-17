@@ -37,11 +37,10 @@ root.get("some/path/file.json", function(err, data) {
 root.add("something.json", {"an": "object"});
 root.add("something2.json", {"an": "array"});
 root.rm("needs-deleting.json");
-root.save(function(err, success) {
+root.save(function(err) {
 	// success is always true if there is no error
 
 });
-
 
 ```
 

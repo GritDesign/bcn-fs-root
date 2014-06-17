@@ -16,7 +16,7 @@ var selection = root.select("**/*.json");
 
 selection.on("data", function(key, value) {
    
-       // console.log(key);
+        console.log(key);
 
 });
 

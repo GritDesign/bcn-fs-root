@@ -14,6 +14,12 @@
   "dependencies": {
 	"async": "0.2.9"
    },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-jsbeautifier": "~0.2.2",
+    "grunt-jasmine-node-coverage": "~0.1.6"
+  },
   "optionalDependencies": {},
   "scripts": {
        "test": "node tests/test.js"
