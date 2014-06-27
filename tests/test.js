@@ -12,16 +12,17 @@ if (!rootFolder) {
 var root = new BcnFsRoot(rootFolder);
 
 var start = (new Date()).getTime();
-var selection = root.select("**/*.json");
+var selection = root.select("**/*");
 
 selection.on("data", function(key, value) {
-   
+	selection.pause();
         console.log(key);
-
+//	setImmediate(function () {
+	    selection.resume();
+//	}, 20);
 });
 
 selection.on("end", function() {
-    
     var end = (new Date()).getTime();
     console.log("elapsed " + (end - start) + "ms");
 });
